@@ -2,6 +2,15 @@
 #include "parse.h"
 
 void parse(FILE* fp, int size) {
+    
+    if(FILE* fp = NULL)
+    {
+        exit(FILE_FAILED_TO_OPEN);
+    }
+    if(FILE* fp != 2)
+    {
+        exit(INCORRECT_NUMBER_OF_COMMAND_LINE_ARGUMENTS);
+    }
     int index = 0, count = 0, count2 = 0;
     int temp;
     char c = '\0';
