@@ -15,7 +15,7 @@
 void parse(FILE* fp, int size);
 
 /* Checks format of given string */
-int parse_test(char *input, int length);
+int parse_test(char *input);
 
 /* Gets the numbers from line given */
 void getDigits(char* str, int size);
